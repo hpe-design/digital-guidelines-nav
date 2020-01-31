@@ -1,0 +1,22 @@
+<html>
+  <style type="text/css">
+    body { margin: 0; }
+  </style>
+<body>
+<div id="nav">
+<script type="module">
+  import { populate } from 'http://127.0.0.1:8080/dg-nav.js';
+  populate("nav", [
+    { name: 'Accessibility', links: [
+      { label: 'Accessibility at HPE', href: '#' },
+      { label: 'Accessibility Tools', href: '#' },
+    ] },
+    { name: 'Browsers', links: [
+      { label: 'Browsers at HPE', href: '#' },
+      { label: 'Browser Details', href: '#' },
+    ] },
+  ]);
+</script>
+</div>
+</body>
+</html>
